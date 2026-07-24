@@ -1,0 +1,874 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html,
+body {
+    width: 100%;
+    height: 100%;
+    background-color: #F5F5F5;
+}
+
+.header {
+    width: 100%;
+    margin: 0 auto;
+    padding-bottom: 2.133vw;
+}
+
+.tilamisu {
+    width: 100%;
+    height: 100vw;
+    margin: 0 auto;
+    background-image: url(../相关图片/提拉米苏375.png);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+
+.toubu {
+    width: 100vw;
+    height: 11.733vw;
+    background-color: rgb(197, 194, 194, 0.2);
+    backdrop-filter: blur(4px);
+    -webkit-backdrop-filter: blur(8px);
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-items: center;
+}
+
+.bjz {
+    margin-left: 3.2vw;
+    background-color: rgb(100, 99, 99);
+    width: 8.533vw;
+    height: 8.533vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+}
+
+.zuo {
+    width: 5.867vw;
+    height: 5.867vw;
+
+}
+
+.yun {
+    width: 17.333vw;
+    height: 4.267vw;
+    border-radius: 0px 0px 0px 0px;
+    box-shadow: 1px 1px 1px 0px rgba(66, 33, 0, 0.25);
+    opacity: 1;
+    padding-left: 1.6vw;
+}
+
+.sp {
+    width: 8.533vw;
+    height: 4.267vw;
+    font-size: 4.267vw;
+    font-family: Source Han Sans CN-Bold, Source Han Sans CN;
+    color: #FFFFFF;
+    text-shadow: 1px 1px 0px rgba(0, 0, 0, 0.25);
+    padding-left: 6.933vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.s {
+    padding-left: 4vw;
+    color: #FFFFFF;
+    font-size: 4.267vw;
+}
+
+.xq {
+    width: 8.533vw;
+    height: 4.267vw;
+    font-size: 4.267vw;
+    font-family: Source Han Sans CN-Normal, Source Han Sans CN;
+    color: #FFFFFF;
+    padding-left: 4vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.bjy {
+    margin-left: 25.6vw;
+    background-color: rgb(100, 99, 99);
+    width: 8.533vw;
+    height: 8.533vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+}
+
+.ygwc {
+    width: 5.867vw;
+    height: 5.867vw;
+}
+
+.part2 {
+    width: 93.6vw;
+    height: 38.4vw;
+    background-color: #FFFFFF;
+    margin-left: 3.2vw;
+}
+
+.jiage {
+    width: 89.333vw;
+    height: 7.667vw;
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    padding-top: 2.133vw;
+}
+
+.qian {
+    padding-left: 2.133vw;
+    width: 70.133vw;
+    height: 7.2vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.qian1 {
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: baseline;
+}
+
+.qiann {
+    font-size: 3.733vw;
+    font-family: Source Han Sans CN-Regular, Source Han Sans CN;
+    color: #FF0000;
+    line-height: 1;
+}
+
+.qianmian {
+    font-size: 4.267vw;
+    font-family: Source Han Sans CN-Regular, Source Han Sans CN;
+    color: #FF0000;
+    line-height: 1;
+}
+
+.houmian {
+    font-size: 3.733vw;
+    font-family: Source Han Sans CN-Regular, Source Han Sans CN;
+    color: #FF0000;
+    line-height: 1;
+}
+
+.dao {
+    width: 2.133vw;
+    height: 5.867vw;
+    font-size: 3.733vw;
+    font-family: Source Han Sans CN-Regular, Source Han Sans CN;
+    color: #EE0011;
+}
+
+.qian2 {
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: baseline;
+    padding-left: 0.267vw;
+}
+
+.qiann1 {
+    font-size: 3.733vw;
+    font-family: Source Han Sans CN-Regular, Source Han Sans CN;
+    color: #FF0000;
+    line-height: 1;
+}
+
+.qianmian1 {
+    font-size: 4.267vw;
+    font-family: Source Han Sans CN-Regular, Source Han Sans CN;
+    color: #FF0000;
+    line-height: 1;
+}
+
+.houmian1 {
+    font-size: 3.733vw;
+    font-family: Source Han Sans CN-Regular, Source Han Sans CN;
+    color: #FF0000;
+    line-height: 1;
+}
+
+.tu {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    padding-left: 44.467vw;
+}
+
+.weixin {
+    width: 8.533vw;
+    height: 8.533vw;
+}
+
+.xiazai {
+    width: 8.533vw;
+    height: 8.533vw;
+    padding-left: 1.067vw;
+}
+.mingzi{
+    padding-top: 2.133vw;
+   width: 89.333vw;
+   height: 10.667vw;
+   font-size: 4.267vw;
+   font-family: Source Han Sans CN-Medium, Source Han Sans CN; 
+   color: #333333;
+   display: flex;
+   justify-content: space-between;
+   padding-left: 2.133vw;
+}
+.jieshao{
+    padding-top: 2.133vw;
+    padding-left: 2.133vw;
+   width: 90.333vw;
+   height: 12.8vw;
+   font-size: 3.733vw;
+   font-family: Source Han Sans CN-Regular, Source Han Sans CN;
+   color: #727687;
+}
+.part3 {
+    width: 93.6vw;
+    height: 49.067vw;
+    background-color: #FFFFFF;
+    margin-left: 3.2vw;
+    margin-top: 2.133vw;
+}
+
+.top-one,
+.top-two,
+.top-three {
+    width: 89.333vw;
+    height: 5.333vw;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-left: 2.133vw;
+    gap: 4.267vw;
+    padding-bottom: 2.133vw;
+}
+
+.top-four {
+    width: 89.333vw;
+    height: 22.4vw;
+    display: flex;
+    flex-direction: row;
+    margin-left: 2.133vw;
+    padding-top: 2.133vw;
+    gap: 4.267vw;
+}
+
+.le1,
+.le2,
+.le3,
+.le4 {
+    width: 7.467vw;
+    font-size: 3.733vw;
+    font-family: Source Han Sans CN-Regular, Source Han Sans CN;
+    color: #727687;
+    flex-shrink: 0;
+}
+
+.md1,
+.md2,
+.md3 {
+    flex: 1;
+    font-size: 3.733vw;
+    font-family: Source Han Sans CN-Regular, Source Han Sans CN;
+    color: #333333;
+    padding-left: 4.267vw;
+}
+
+.md4 {
+    flex: 1;
+    padding-left: 4.533vw;
+    display: flex;
+    flex-direction: column;
+    gap: 2.133vw;
+}
+
+.ri1,
+.ri3,
+.ri4 {
+    width: 5.333vw;
+    font-size: 4.267vw;
+    color: #CCCCCC;
+    text-align: right;
+    flex-shrink: 0;
+}
+
+.up1,
+.up2,
+.up3 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.dui,
+.dui1,
+.dui2 {
+    width: 4.267vw;
+    height: 4.267vw;
+    background-color: #00B578;
+    color: #FFFFFF;
+    font-size: 2.667vw;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-shrink: 0;
+}
+
+.sf {
+    width: 20vw;
+    height: 5.333vw;
+    padding-left: 1.067vw;
+}
+
+.cw {
+    font-size: 3.733vw;
+    font-family: Source Han Sans CN-Regular, Source Han Sans CN;
+    color: #333333;
+    padding-left: 1.067vw;
+}
+
+.wt {
+    font-size: 3.733vw;
+    font-family: Source Han Sans CN-Regular, Source Han Sans CN;
+    color: #333333;
+    padding-left: 1.067vw;
+}
+
+.part4 {
+    width: 93.6vw;
+    background-color: #FFFFFF;
+    margin-left: 3.2vw;
+    margin-top: 2.133vw;
+    border-radius: 2.133vw;
+    overflow: hidden;
+    padding-bottom: 2.133vw;
+}
+
+.p4-top {
+    width: 89.333vw;
+    margin-left: 2.133vw;
+    display: flex;
+    flex-direction: row;
+    padding-top: 2.133vw;
+    gap: 1.067vw;
+}
+
+.tp-left {
+    width: 12.8vw;
+    height: 12.8vw;
+    border-radius: 50%;
+    overflow: hidden;
+    flex-shrink: 0;
+}
+
+.ya {
+    width: 12.8vw;
+    height: 12.8vw;
+    object-fit: cover;
+}
+
+.tp-right {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.top-1 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.gs {
+    font-size: 4.267vw;
+    font-family: Source Han Sans CN-Medium, Source Han Sans CN;
+    color: #333333;
+    font-weight: bold;
+}
+
+.k {
+    font-size: 4.267vw;
+    color: #CCCCCC;
+    padding-right: 1.067vw;
+}
+
+.top-2 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 1.6vw;
+}
+
+.kc {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 1.067vw;
+}
+
+.zs {
+    font-size: 3.733vw;
+    font-family: Source Han Sans CN-Regular, Source Han Sans CN;
+    color: #727687;
+}
+
+.sl {
+    font-size: 3.733vw;
+    font-family: Source Han Sans CN-Medium, Source Han Sans CN;
+    color: #FF6B00;
+    font-weight: bold;
+}
+
+.jg {
+    font-size: 3.2vw;
+    color: #E0E0E0;
+    margin: 0 0.533vw;
+}
+
+.gz {
+    width: 12.8vw;
+    height: 5.333vw;
+    background: linear-gradient(135deg, #FF6B00, #FF8C00);
+    color: #FFFFFF;
+    font-size: 3.2vw;
+    font-family: Source Han Sans CN-Medium, Source Han Sans CN;
+    border-radius: 2.667vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-shrink: 0;
+}
+
+.p4-butm {
+    width: 89.333vw;
+    margin-left: 2.133vw;
+    margin-top: 2.133vw;
+    background-color: #FFF8F0;
+    border-radius: 1.6vw;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 1.333vw 2.133vw;
+    box-sizing: border-box;
+}
+
+.jb {
+    width: 4.267vw;
+    height: 4.267vw;
+    flex-shrink: 0;
+}
+
+.xl {
+    font-size: 3.2vw;
+    font-family: Source Han Sans CN-Regular, Source Han Sans CN;
+    color: #FF6B00;
+    padding-left: 1.067vw;
+    flex: 1;
+}
+
+.gdd {
+    width: 4.267vw;
+    height: 4.267vw;
+    flex-shrink: 0;
+}
+.part5{
+    width: 93.6vw;
+    height: 8vw;
+    background-color: #FFFFFF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 3.2vw;
+    margin-top: 2.133vw;
+    border-radius: 2.133vw 2.133vw 0 0;
+}
+.spxq{
+  width: 89.333vw;
+  height: 5.867vw;
+  font-size: 4.267vw;
+  color: #333333; 
+  font-family: Source Han Sans CN-Medium, Source Han Sans CN; 
+}
+.part6{
+    width: 93.6vw;
+    height: 117.867vw;
+    margin-left: 3.2vw;
+}
+.tlmsjs{
+    width: 100%;
+    height: 100%;
+}
+
+.footerr {
+    width: 100vw;
+    height: 14.667vw;
+    background-color: #FFFFFF;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    z-index: 100;
+    box-shadow: 0 -0.267vw 1.067vw rgba(0, 0, 0, 0.08);
+}
+
+.f-left {
+    width: 29.067vw;
+    padding-left: 2.133vw;
+    gap: ;
+    display: flex;
+    justify-content: flex-start;
+}
+
+.f-left1,
+.f-left2,
+.f-left3 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 0.533vw;
+    width: 9.6vw;
+    height: 9.867vw;
+}
+
+.sy,
+.sj,
+.sc {
+    width: 5.867vw;
+    height: 5.867vw;
+}
+
+.zi1,
+.zi2,
+.zi3 {
+    font-size: 2.667vw;
+    font-family: Source Han Sans CN-Regular, Source Han Sans CN;
+    color: #727687;
+}
+
+.f-right {
+    flex: 1;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+     padding-left: 2.133vw;
+    width: 64.533vw;
+    height: 10.667vw;;
+}
+
+.f-right1 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 32.267vw;
+    height: 10.667vw;
+    border-radius: 4.667vw 0 0 4.667vw;
+    background: #FF9100;
+}
+
+.gw {
+    width: 5.333vw;
+    height: 5.333vw;
+    padding-left: 3.2vw;
+}
+
+.jr {
+    width: 21.333vw;
+    height: 5.4vw;
+    font-size: 3.467vw;
+    white-space: nowrap;
+    font-family: Source Han Sans CN-Medium, Source Han Sans CN;
+    color: #FFFFFF;
+    padding-left: 0.267vw;
+}
+
+.f-right2 {
+    width: 32.267vw;
+    height: 10.667vw;
+    border-radius: 0 4.667vw  4.667vw 0;
+    gap: 0.8vw;
+    background: #009A00;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.ljgm {
+    font-size: 3.467vw;
+    border-radius: 4.667vw;
+    width: 17.067vw;
+    height: 5.4vw;
+}
+
+/* 弹窗遮罩 */
+.modal-overlay {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: 200;
+    justify-content: flex-end;
+    align-items: flex-end;
+}
+
+/* 弹窗内容区 */
+.modal-overlay > .mo-top1,
+.modal-overlay > .mo-top2,
+.modal-overlay > .mo-top3,
+.modal-overlay > .mo-top4,
+.modal-overlay > .mo-top5 {
+    width: 93.6vw;
+}
+
+.modal-popup {
+    width: 100vw;
+    height: 86.4vw;
+    background-color: #FFFFFF;
+    border-radius: 3.2vw 3.2vw 0 0;
+    padding-bottom: 3.2vw;
+    animation: slideUp 0.3s ease;
+}
+
+@keyframes slideUp {
+    from {
+        transform: translateY(100%);
+    }
+    to {
+        transform: translateY(0);
+    }
+}
+
+/* 关闭按钮 */
+.mo-close {
+    text-align: right;
+    padding: 1.067vw 3.2vw 0;
+    font-size: 4.8vw;
+    color: #CCCCCC;
+    user-select: none;
+    line-height: 1;
+}
+
+/* 商品信息 */
+.mo-top1 {
+    width: 93.6vw;
+    height: 27.733vw;
+    display: flex;
+    flex-direction: row;
+    padding-left: 3.2vw;
+    padding-bottom: 2.133vw;
+    gap: 2.133vw;
+}
+
+.top1-left .tm {
+    width: 23.467vw;
+    height: 23.467vw;
+    border-radius: 1.6vw;
+    object-fit: cover;
+}
+
+.top1-right {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.js {
+    font-size: 4.267vw;
+    font-family: Source Han Sans CN-Medium, Source Han Sans CN;
+    color: #333333;
+    line-height: 1.4;
+    margin-bottom: 1.6vw;
+}
+
+.mo-top1 .jg {
+    display: flex;
+    flex-direction: row;
+    align-items: baseline;
+}
+
+.qiann-1 {
+    font-size: 3.733vw;
+    font-family: Source Han Sans CN-Regular, Source Han Sans CN;
+    color: #FF0000;
+}
+
+.qianmian-1 {
+    font-size: 5.333vw;
+    font-family: Source Han Sans CN-Medium, Source Han Sans CN;
+    color: #FF0000;
+    font-weight: bold;
+}
+
+.houmian1-1 {
+    font-size: 3.733vw;
+    font-family: Source Han Sans CN-Regular, Source Han Sans CN;
+    color: #FF0000;
+}
+
+/* 规格标题 */
+.mo-top2 {
+    padding: 0 3.2vw 2.133vw;
+    font-size: 3.733vw;
+    color: #727687;
+}
+
+.mo-top2  div {
+    font-size: 3.733vw;
+    font-family: Source Han Sans CN-Regular, Source Han Sans CN;
+    color: #333333;
+}
+
+/* 规格选择 */
+.mo-top3 {
+   padding-left: 5.333vw;
+}
+
+.top3-top,
+.top3-buttom {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 2.133vw;
+    margin-bottom: 2.133vw;
+}
+
+.kg1,
+.kg2,
+.kg3,
+.kg5 {
+    padding: 1.333vw 2.133vw;
+    font-size: 3.733vw;
+    font-family: Source Han Sans CN-Regular, Source Han Sans CN;
+    color: #333333;
+    background-color: #F5F5F5;
+    border-radius: 0.8vw;
+    cursor: pointer;
+    border: 0.267vw solid transparent;
+    user-select: none;
+}
+
+.kg1.active,
+.kg2.active,
+.kg3.active,
+.kg5.active {
+    color: #FF6B00;
+    background-color: #FFF5EC;
+    border-color: #FF6B00;
+}
+
+/* 数量选择 */
+.mo-top4 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 5.333vw;
+    padding-bottom: 2.133vw;
+    padding-right: 5.333vw;
+}
+
+.top4-left {
+    font-size: 3.733vw;
+    font-family: Source Han Sans CN-Regular, Source Han Sans CN;
+    color: #333333;
+}
+
+.top4-right {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.qty-btn {
+    width: 7.467vw;
+    height: 7.467vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 4.8vw;
+    color: #333333;
+    cursor: pointer;
+    user-select: none;
+    background-color: #F5F5F5;
+    border: 0.267vw solid #E0E0E0;
+    border-radius: 50%;
+}
+
+.qty-btn.minus {
+    border-radius: 4.067vw 0 0 4.067vw;
+    border-right: none;
+}
+
+.qty-btn.plus {
+    border-radius: 0 4.067vw 4.067vw 0;
+    border-left: none;
+}
+
+.qty-num {
+    width: 10.667vw;
+    height: 7.467vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 4.267vw;
+    color: #333333;
+    font-family: Source Han Sans CN-Medium, Source Han Sans CN;
+    border-top: 0.267vw solid #E0E0E0;
+    border-bottom: 0.267vw solid #E0E0E0;
+    border-left: none;
+    border-right: none;
+    background-color: #FFFFFF;
+}
+
+/* 确定按钮 */
+.mo-top5 {
+    padding-left: 3.2vw;
+    padding-bottom: 4.267vw;
+    padding-right: 3.2vw;
+}
+
+.mo-top5  div {
+    width: 100%;
+    height: 10.667vw;
+    background-color: #FF6B00;
+    color: #FFFFFF;
+    font-size: 3.733vw;
+    font-family: Source Han Sans CN-Medium, Source Han Sans CN;
+    border-radius:  4.067vw 4.067vw ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    border: none;
+    box-sizing: border-box;
+}
+
+.mo-top5 > div:active {
+    background-color: #E56000;
+}
+
+
