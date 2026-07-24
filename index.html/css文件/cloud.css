@@ -1,0 +1,1159 @@
+﻿* {
+    margin: 0;
+    padding: 0;
+}
+
+html,
+body {
+    width: 100%;
+    height: 100%;
+    background-color: #F5F5F5;
+}
+
+.header {
+    width: 100%;
+    margin: 0 auto;
+    padding-bottom: 2.667vw;
+}
+
+.bjt {
+    width: 100%;
+    height: 62.4vw;
+    margin: 0 auto;
+    background-image: url(../相关图片/烟火人间1.png);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+
+.part1 {
+    width: 100%;
+}
+
+.one {
+    padding-top: 1.6vw;
+    padding-left: 3.2vw;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+}
+
+.xitong {
+    width: 8.533vw;
+    height: 4.267vw;
+}
+
+.gundongtiao {
+    width: 84vw;
+    height: 3.2vw;
+    padding-left: 1.066vw;
+    font-size: 3.2vw;
+    color: #FFFFFF;
+    font-family: Source Han Sans CN-Regular, Source Han Sans CN;
+}
+
+.two {
+    width: 100%;
+    padding-top: 3.2vw;
+    height: 4.267vw;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+}
+
+.ydxx {
+    padding-left: 3.2vw;
+    width: 17.333vw;
+    height: 4.267vw;
+}
+
+.tishi {
+    padding-right: 3.2vw;
+    width: 5.867vw;
+    height: 5.867vw;
+}
+
+.main {
+    width: 100%;
+    margin: 0 auto;
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.part2 {
+    width: 93.6vw;
+    height: 10.133vw;
+    background-color: white;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+}
+
+.tongzhi {
+    width: 8.533vw;
+    height: 8vw;
+    padding-left: 2.133vw;
+    padding-top: 1.067vw;
+}
+
+.gundongtiao1 {
+    width: 79.733vw;
+    height: 3.733vw;
+    font-size: 3.733vw;
+    font-family: Source Han Sans CN-Regular, Source Han Sans CN;
+    display: flex;
+    padding-top: 2.133vw;
+    padding-left: 1.067vw;
+}
+
+.part3 {
+    width: 93.6vw;
+    padding-top: 2.667vw;
+    overflow: hidden;
+}
+
+.part3 img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.part4 {
+    width: 93.6vw;
+    height: 40.533vw;
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+    align-items: flex-start;
+    overflow-x: auto;
+    gap: 2.133vw;
+}
+
+.item {
+    padding-top: 3.2vw;
+    flex-shrink: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.firstitem {
+    padding-top: 3.2vw;
+    flex-shrink: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.item-text {
+    width: 23.467vw;
+    font-size: 3.733vw;
+    font-family: Source Han Sans CN-Regular, Source Han Sans CN;
+    color: #333333;
+    text-align: left;
+    padding-top: 1.6vw;
+}
+
+.jiage {
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: baseline;
+    padding-top: 1.067vw;
+}
+
+.qian {
+    font-size: 3.733vw;
+    font-family: Source Han Sans CN-Regular, Source Han Sans CN;
+    color: #FF0000;
+    line-height: 1;
+}
+
+.qianmian {
+    font-size: 4.267vw;
+    font-family: Source Han Sans CN-Regular, Source Han Sans CN;
+    color: #FF0000;
+    line-height: 1;
+}
+
+.houmian {
+    font-size: 3.733vw;
+    font-family: Source Han Sans CN-Regular, Source Han Sans CN;
+    color: #FF0000;
+    line-height: 1;
+}
+
+.fanqie {
+    flex-shrink: 0;
+    width: 23.467vw;
+    height: 23.467vw;
+    padding-left: 2.133vw;
+}
+
+.huluobo {
+    flex-shrink: 0;
+    width: 23.467vw;
+    height: 23.467vw;
+}
+
+.nangua {
+    flex-shrink: 0;
+    width: 23.467vw;
+    height: 23.467vw;
+}
+
+.tudou {
+    flex-shrink: 0;
+    width: 23.467vw;
+    height: 23.467vw;
+}
+
+.firstitem .item-text {
+    padding-left: 2.133vw;
+}
+
+.firstitem .jiage {
+    padding-left: 2.133vw;
+}
+
+.part5 {
+    padding-top: 2.667vw;
+    width: 93.6vw;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+    gap: 2.133vw;
+}
+
+.left-fyec {
+    flex-shrink: 0;
+    width: 30.667vw;
+}
+
+.left-fyec img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.right-three {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 2.133vw;
+}
+
+.xczx {
+    background-image: url(../相关图片/稻子.png);
+    background-size: 100% 100%;
+    width: 100%;
+    aspect-ratio: 60.8 / 23.467;
+    position: relative;
+}
+
+.xczx1 {
+    width: 20.267vw;
+    height: 5.867vw;
+    position: absolute;
+    top: 2.133vw;
+    left: 2.133vw;
+}
+
+.yxyc {
+    width: 56.533vw;
+    height: 4.8vw;
+    font-family: Source Han Sans CN-Regular, Source Han Sans CN;
+    font-size: 3.733vw;
+    position: absolute;
+    top: 8.533vw;
+    left: 2.133vw;
+}
+
+.xjll {
+    width: 17.333vw;
+    height: 4.267vw;
+    position: absolute;
+    top: 17.067vw;
+    right: 2.133vw;
+}
+
+.xunnaxundian {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    gap: 2.133vw;
+}
+
+.zuo3 {
+    background-image: url(../相关图片/花.png);
+    background-size: 100% 100%;
+    position: relative;
+    flex: 1;
+    aspect-ratio: 29.333 / 27.733;
+}
+
+.haohua {
+    width: 20.267vw;
+    height: 5.867vw;
+    position: absolute;
+    top: 2.133vw;
+    left: 2.133vw;
+}
+
+.qicai {
+    width: 25.067vw;
+    height: 9.6vw;
+    font-size: 3.733vw;
+    position: absolute;
+    top: 8.533vw;
+    left: 2.133vw;
+    display: flex;
+    flex-wrap: wrap;
+    color: #FFFFFF;
+}
+
+.ycfh {
+    width: 17.333vw;
+    height: 4.267vw;
+    position: absolute;
+    top: 21.333vw;
+    left: 6.133vw;
+}
+
+.you3 {
+    background-image: url(../相关图片/背景.png);
+    background-size: 100% 100%;
+    position: relative;
+    flex: 1;
+    aspect-ratio: 29.333 / 27.733;
+}
+
+.haoli {
+    width: 20.267vw;
+    height: 5.867vw;
+    position: absolute;
+    top: 2.133vw;
+    left: 2.133vw;
+}
+
+.yxhl {
+    width: 25.067vw;
+    height: 9.6vw;
+    font-size: 3.733vw;
+    position: absolute;
+    top: 8.533vw;
+    left: 2.133vw;
+    display: flex;
+    flex-wrap: wrap;
+    color: #FFFFFF;
+}
+
+.zpzd {
+    width: 17.333vw;
+    height: 4.267vw;
+    position: absolute;
+    top: 21.333vw;
+    left: 6.133vw;
+}
+
+.part6 {
+    padding-top: 2.133vw;
+    width: 93.6vw;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+}
+
+.rmbp {
+    width: 20.267vw;
+    height: 6.933vw;
+}
+
+.right-zi {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    flex-grow: 1;
+}
+
+.gengduo {
+    flex: 0;
+    width: auto;
+    height: 5.6vw;
+    font-size: 3.733vw;
+    white-space: nowrap;
+}
+
+.xaintiao {
+    font-weight: bold;
+    white-space: nowrap;
+}
+
+.part7 {
+    width: 93.6vw;
+    overflow-x: auto;
+    /* 允许水平滚动 */
+    gap: 1.867vw;
+    display: flex;
+    flex-wrap: nowrap;
+    /* 防止内容换行 */
+    justify-content: flex-start;
+    /* 内容从左开始排列 */
+    align-content: flex-start;
+    padding-top: 1.333vw;
+}
+
+.firstpic {
+    flex-shrink: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    position: relative;
+}
+
+.yabo {
+    width: 26.667vw;
+    height: 26.667vw;
+}
+
+.pic-text {
+    width: 24.533vw;
+    height: 3.733vw;
+    font-size: 3.733vw;
+    color: #FFFFFF;
+    font-family: Source Han Sans CN-Regular, Source Han Sans CN;
+    position: absolute;
+    top: 16vw;
+    left: 1.067vw;
+}
+
+.jiage1 {
+    position: absolute;
+    top: 20.267vw;
+    left: 1.067vw;
+}
+
+.qian1 {
+    font-size: 3.733vw;
+    font-family: Source Han Sans CN-Regular, Source Han Sans CN;
+    color: white;
+    line-height: 1;
+}
+
+.qianmian1 {
+    font-size: 4.267vw;
+    font-family: Source Han Sans CN-Regular, Source Han Sans CN;
+    color: white;
+    line-height: 1;
+}
+
+.houmian1 {
+    font-size: 3.733vw;
+    font-family: Source Han Sans CN-Regular, Source Han Sans CN;
+    color: white;
+    line-height: 1;
+}
+
+.firstpic1 {
+    flex-shrink: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    position: relative;
+}
+
+.pic-text1 {
+    width: 24.533vw;
+    height: 3.733vw;
+    font-size: 3.733vw;
+    color: #FFFFFF;
+    font-family: Source Han Sans CN-Regular, Source Han Sans CN;
+    position: absolute;
+    top: 16vw;
+    left: 1.067vw;
+}
+
+.jiage2 {
+    position: absolute;
+    top: 20.267vw;
+    left: 1.067vw;
+}
+
+.firstpic2 {
+    flex-shrink: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    position: relative;
+}
+
+.pic-text2 {
+    width: 24.533vw;
+    height: 3.733vw;
+    font-size: 3.733vw;
+    color: #FFFFFF;
+    font-family: Source Han Sans CN-Regular, Source Han Sans CN;
+    position: absolute;
+    top: 16vw;
+    left: 1.067vw;
+}
+
+.jiage3 {
+    position: absolute;
+    top: 20.267vw;
+    left: 1.067vw;
+}
+
+.firstpic3 {
+    flex-shrink: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    position: relative;
+}
+
+.pic-text3 {
+    width: 24.533vw;
+    height: 3.733vw;
+    font-size: 3.733vw;
+    color: #FFFFFF;
+    font-family: Source Han Sans CN-Regular, Source Han Sans CN;
+    position: absolute;
+    top: 16vw;
+    left: 1.067vw;
+}
+
+.jiage4 {
+    position: absolute;
+    top: 20.267vw;
+    left: 1.067vw;
+}
+
+.firstpic4 {
+    flex-shrink: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    position: relative;
+}
+
+.pic-text4 {
+    width: 24.533vw;
+    height: 3.733vw;
+    font-size: 3.733vw;
+    color: #FFFFFF;
+    font-family: Source Han Sans CN-Regular, Source Han Sans CN;
+    position: absolute;
+    top: 16vw;
+    left: 1.067vw;
+}
+
+.jiage5 {
+    position: absolute;
+    top: 20.267vw;
+    left: 1.067vw;
+}
+
+.part8 {
+    width: 93.6vw;
+    height: 12vw;
+    padding-top: 1.333vw;
+}
+
+.sfzq {
+    width: 93.6vw;
+    height: 12vw;
+}
+
+.part9 {
+    width: 93.6vw;
+    height: 5.867vw;
+    padding-top: 2.667vw;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+}
+
+.lbxs {
+    width: 5.333vw;
+    height: 5.333vw;
+}
+
+.qhlb {
+    width: 14.933vw;
+    height: 5.333vw;
+    font-size: 3.733vw;
+    color: #009A00;
+    font-family: Source Han Sans CN-Regular, Source Han Sans CN;
+    padding-left: 0.267vw;
+}
+
+.ckgd {
+    width: 14.933vw;
+    height: 5.867vw;
+    font-size: 3.733vw;
+    color: #333333;
+    font-family: Source Han Sans CN-Regular, Source Han Sans CN;
+    padding-left: 53.6vw;
+}
+
+.kh1 {
+    width: 4.267vw;
+    height: 4.267vw;
+    background-origin: 0 0 0 0;
+    opacity: 1;
+    padding-top: 0.533vw;
+}
+
+.part10 {
+    width: 93.6vw;
+    padding-top: 2.133vw;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+    gap: 1.867vw;
+}
+
+.tlms {
+    width: 45.867vw;
+    height: 45.867vw;
+}
+
+.butm-tp {
+    background-color: #FFFFFF;
+    width: 45.867vw;
+    height: 24vw;
+    position: relative;
+}
+
+.spjs {
+    width: 43.733vw;
+    height: 4.8vw;
+    font-size: 3.733vw;
+    color: #333333;
+    position: absolute;
+    top: 1.067vw;
+    left: 1.067vw;
+}
+
+.sf {
+    width: 14.667vw;
+    height: 3.733vw;
+    position: absolute;
+    top: 6.933vw;
+    left: 1.067vw;
+}
+
+.wuliyou {
+    width: 14.4vw;
+    height: 3.2vw;
+    font-family: Source Han Sans CN-Regular, Source Han Sans CN;
+    font-size: 2.667vw;
+    color: #009A00;
+    position: absolute;
+    top: 7.2vw;
+    left: 17.867vw;
+    border: 2px solid #009A00;
+    display: flex;
+    align-items: center;
+    /* 垂直居中 */
+    justify-content: center;
+}
+
+.jiage-p {
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: baseline;
+    position: absolute;
+    top: 13.067vw;
+    left: 1.067vw;
+}
+
+.qian-p {
+    font-size: 3.733vw;
+    font-family: Source Han Sans CN-Regular, Source Han Sans CN;
+    color: #FF0000;
+    line-height: 1;
+}
+
+.qianmian-p {
+    font-size: 4.267vw;
+    font-family: Source Han Sans CN-Regular, Source Han Sans CN;
+    color: #FF0000;
+    line-height: 1;
+}
+
+.houmian-p {
+    font-size: 3.733vw;
+    font-family: Source Han Sans CN-Regular, Source Han Sans CN;
+    color: #FF0000;
+    line-height: 1;
+}
+
+.yj {
+    width: 9.6vw;
+    height: 3.2vw;
+    font-size: 3.2vw;
+    color: #ADB0BD;
+    position: absolute;
+    top: 13.333vw;
+    left: 14.133vw;
+    text-decoration: line-through;
+}
+
+.gwc {
+    width: 6.4vw;
+    height: 6.4vw;
+    position: absolute;
+    top: 11.733vw;
+    left: 38.4vw;
+}
+
+.cxzh {
+    width: 43.733vw;
+    height: 3.2vw;
+    font-size: 3.2vw;
+    color: #727687;
+    position: absolute;
+    top: 19.2vw;
+    left: 1.067vw;
+}
+
+.xnndj {
+    width: 45.867vw;
+    height: 45.867vw;
+}
+
+.butm-tp1 {
+    background-color: #FFFFFF;
+    width: 45.867vw;
+    height: 28.8vw;
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.spjss {
+    width: 43.733vw;
+    height: 9.6vw;
+    font-size: 3.733vw;
+    color: #333333;
+    position: absolute;
+    top: 1.067vw;
+    left: 1.067vw;
+}
+
+.sff {
+    width: 14.667vw;
+    height: 3.733vw;
+    position: absolute;
+    top: 11.733vw;
+    left: 1.067vw;
+}
+
+.wuliyouu {
+    width: 14.4vw;
+    height: 3.2vw;
+    font-family: Source Han Sans CN-Regular, Source Han Sans CN;
+    font-size: 2.667vw;
+    color: #009A00;
+    position: absolute;
+    top: 12vw;
+    left: 17.867vw;
+    border: 2px solid #009A00;
+    display: flex;
+    align-items: center;
+    /* 垂直居中 */
+    justify-content: center;
+}
+
+.jiage-pp {
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: baseline;
+    position: absolute;
+    top: 17.867vw;
+    left: 1.067vw;
+}
+
+.qian-pp {
+    font-size: 3.733vw;
+    font-family: Source Han Sans CN-Regular, Source Han Sans CN;
+    color: #FF0000;
+    line-height: 1;
+}
+
+.qianmian-pp {
+    font-size: 4.267vw;
+    font-family: Source Han Sans CN-Regular, Source Han Sans CN;
+    color: #FF0000;
+    line-height: 1;
+}
+
+.houmian-pp {
+    font-size: 3.733vw;
+    font-family: Source Han Sans CN-Regular, Source Han Sans CN;
+    color: #FF0000;
+    line-height: 1;
+}
+
+.yjj {
+    width: 9.6vw;
+    height: 3.2vw;
+    font-size: 3.2vw;
+    color: #ADB0BD;
+    position: absolute;
+    top: 18.133vw;
+    left: 14.133vw;
+    text-decoration: line-through;
+}
+
+.gwcc {
+    width: 6.4vw;
+    height: 6.4vw;
+    position: absolute;
+    top: 16.533vw;
+    left: 38.4vw;
+}
+
+.cxzhh {
+    width: 43.733vw;
+    height: 3.2vw;
+    font-size: 3.2vw;
+    color: #727687;
+    position: absolute;
+    top: 24vw;
+    left: 1.067vw;
+}
+
+.part11 {
+    width: 93.6vw;
+    padding-top: 2.133vw;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+    gap: 1.867vw;
+}
+
+.left-tp1 {
+    margin-top: -4.666vw;
+}
+
+.tlms1 {
+    width: 45.867vw;
+    height: 45.867vw;
+}
+
+.butm-tp2 {
+    background-color: #FFFFFF;
+    width: 45.867vw;
+    height: 28.8vw;
+    position: relative;
+}
+
+.spjs1 {
+    width: 43.733vw;
+    height: 9.6vw;
+    font-size: 3.733vw;
+    color: #333333;
+    position: absolute;
+    top: 1.067vw;
+    left: 1.067vw;
+}
+
+.sf1 {
+    width: 14.667vw;
+    height: 3.733vw;
+    position: absolute;
+    top: 12vw;
+    left: 1.067vw;
+}
+
+.wuliyou1 {
+    width: 14.4vw;
+    height: 3.2vw;
+    font-family: Source Han Sans CN-Regular, Source Han Sans CN;
+    font-size: 2.667vw;
+    color: #009A00;
+    position: absolute;
+    top: 12.267vw;
+    left: 17.867vw;
+    border: 2px solid #009A00;
+    display: flex;
+    align-items: center;
+    /* 垂直居中 */
+    justify-content: center;
+}
+
+.jiage-p1 {
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: baseline;
+    position: absolute;
+    top: 17.867vw;
+    left: 1.067vw;
+}
+
+.qian-p1 {
+    font-size: 3.733vw;
+    font-family: Source Han Sans CN-Regular, Source Han Sans CN;
+    color: #FF0000;
+    line-height: 1;
+}
+
+.qianmian-p1 {
+    font-size: 4.267vw;
+    font-family: Source Han Sans CN-Regular, Source Han Sans CN;
+    color: #FF0000;
+    line-height: 1;
+}
+
+/* 新增 footer 样式调整 */
+/* 新增 up-t 对齐样式 */
+.up-t {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 1vw; /* 与 butm-z 保持一致 */
+}
+
+.up-t img {
+    width: 6.4vw; /* 与 grzx 图片尺寸一致 */
+    height: 6.4vw;
+}
+.footer {
+    width: 100%;
+    padding: 2vw 0;
+    background-color: #FFFFFF; /* 根据设计稿调整 */
+}
+
+.butm-z {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 1vw; /* 图片和文字间距 */
+}
+
+.grzx {
+    width: 6.4vw; /* 保持与设计一致 */
+    height: 6.4vw;
+}
+.houmian-p1 {
+    font-size: 3.733vw;
+    font-family: Source Han Sans CN-Regular, Source Han Sans CN;
+    color: #FF0000;
+    line-height: 1;
+}
+
+.yj1 {
+    width: 9.6vw;
+    height: 3.2vw;
+    font-size: 3.2vw;
+    color: #ADB0BD;
+    position: absolute;
+    top: 18.133vw;
+    left: 14.133vw;
+    text-decoration: line-through;
+}
+
+.gwc1 {
+    width: 6.4vw;
+    height: 6.4vw;
+    position: absolute;
+    top: 17.867vw;
+    left: 38.4vw;
+}
+
+.cxzh1 {
+    width: 43.733vw;
+    height: 3.2vw;
+    font-size: 3.2vw;
+    color: #727687;
+    position: absolute;
+    top: 24vw;
+    left: 1.067vw;
+}
+
+.mgbj {
+    width: 45.867vw;
+    height: 45.867vw;
+}
+
+.butm-tp3 {
+    background-color: #FFFFFF;
+    width: 45.867vw;
+    height: 24vw;
+    position: relative;
+}
+
+.spjss2 {
+    width: 43.733vw;
+    height: 4.8vw;
+    font-size: 3.733vw;
+    color: #333333;
+    position: absolute;
+    top: 1.067vw;
+    left: 1.067vw;
+}
+
+.sff2 {
+    width: 14.667vw;
+    height: 3.733vw;
+    position: absolute;
+    top: 6.933vw;
+    left: 1.067vw;
+}
+
+.wuliyouu2 {
+    width: 14.4vw;
+    height: 3.2vw;
+    font-family: Source Han Sans CN-Regular, Source Han Sans CN;
+    font-size: 2.667vw;
+    color: #009A00;
+    position: absolute;
+    top: 7.2vw;
+    left: 17.867vw;
+    border: 2px solid #009A00;
+    display: flex;
+    align-items: center;
+    /* 垂直居中 */
+    justify-content: center;
+}
+
+.jiage-pp2 {
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: baseline;
+    position: absolute;
+    top: 13.067vw;
+    left: 1.067vw;
+}
+
+.qian-pp2 {
+    font-size: 3.733vw;
+    font-family: Source Han Sans CN-Regular, Source Han Sans CN;
+    color: #FF0000;
+    line-height: 1;
+}
+
+.qianmian-pp2 {
+    font-size: 4.267vw;
+    font-family: Source Han Sans CN-Regular, Source Han Sans CN;
+    color: #FF0000;
+    line-height: 1;
+}
+
+.houmian-pp2 {
+    font-size: 3.733vw;
+    font-family: Source Han Sans CN-Regular, Source Han Sans CN;
+    color: #FF0000;
+    line-height: 1;
+}
+
+.yjj2 {
+    width: 9.6vw;
+    height: 3.2vw;
+    font-size: 3.2vw;
+    color: #ADB0BD;
+    position: absolute;
+    top: 13.333vw;
+    left: 14.133vw;
+    text-decoration: line-through;
+}
+
+.gwcc1 {
+    width: 6.4vw;
+    height: 6.4vw;
+    position: absolute;
+    top: 11.733vw;
+    left: 38.4vw;
+}
+
+.cxzhh2 {
+    width: 43.733vw;
+    height: 3.2vw;
+    font-size: 3.2vw;
+    color: #727687;
+    position: absolute;
+    top: 19.2vw;
+    left: 1.067vw;
+}
+
+.footerr {
+    background-color: #FFFFFF;
+    width: 100vw;
+    height: 12.8vw;
+    border-radius: 0px 0px 0px 0px;
+    display: flex;
+
+}
+
+.footer-top {
+
+}
+
+.up-t1{
+display: flex;
+flex-direction: row;
+flex-wrap: nowrap;
+justify-content: flex-start;
+}
+.up-t1 .p1 img,
+.up-t1 .p2 img,
+.up-t1 .p3 img,
+.up-t1 .p4 img{
+width: 6.4vw;
+height: 6.4vw;
+}
+.up-t1 .p1 div,
+.up-t1 .p2 div,
+.up-t1 .p3 div,
+.up-t1 .p4 div{
+    font-size: 3.2vw;
+    font-family: Source Han Sans CN-Regular, Source Han Sans CN;
+    color: #727687;
+    height: 3.2vw;
+    text-align: center;
+}
+.p1, .p2, .p3, .p4 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.p1{
+ width: 25.067vw;
+ height: 10.133vw;
+}
+.p2{
+ width: 25.067vw;
+ height: 10.133vw;
+}
+.p3{
+ width: 25.067vw;
+ height: 10.133vw;
+}
+.p4{
+ width: 24.067vw;
+ height: 10.133vw;
+}
+.shouye{
+    width: 6.4vw;
+}
+.quanbushangpin{
+    width: 12.8vw;
+}
+.gouwuche-f{
+    width: 9.6vw;
+}
+.gouwuzhongxin{
+    width: 12.8vw;
+}
